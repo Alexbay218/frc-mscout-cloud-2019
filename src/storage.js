@@ -57,7 +57,6 @@ var download = function() {
         xhr.onload = (event) => {
           zipList.push(xhr.response);
           if(zipList.length == zipLength) {
-            console.log(zipList);
             downloadFiles(zipList);
           }
         };

@@ -34,7 +34,6 @@ var graph = () => {
   };
   var intervalNum = 20;
   var interval = Number.parseInt(document.getElementById("plotOption").value)/intervalNum;
-  console.log(interval*intervalNum);
   var currDate = Date.now();
   graphData.x = [];
   graphData.y = [];
